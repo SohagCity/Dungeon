@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.gameFunctionalities.ControlPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="459" height="57"/>
+    </constraints>
+    <properties>
+      <background color="-16776858"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="26580" class="javax.swing.JButton" binding="resetButton">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="dafe" class="javax.swing.JButton" binding="pauseButton">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <enabled value="true"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="d658d" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <hspacer id="f6ed1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d32ef" class="javax.swing.JComboBox" binding="selectLevel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Level 1"/>
+            <item value="Level 2"/>
+            <item value="Level 3"/>
+            <item value="Level 4"/>
+            <item value="Level 5"/>
+            <item value="Level 6"/>
+          </model>
+        </properties>
+      </component>
+      <component id="42831" class="javax.swing.JLabel" binding="menuIcon" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial" size="20"/>
+          <foreground color="-1"/>
+          <text value="Menu"/>
+        </properties>
+      </component>
+      <component id="35b9" class="javax.swing.JComboBox" binding="saveSlots">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Save 1"/>
+            <item value="Save 2"/>
+            <item value="Save 3"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c56c5" class="javax.swing.JComboBox" binding="loadSlot">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16740097"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Load 1"/>
+            <item value="Load 2"/>
+            <item value="Load 3"/>
+          </model>
+        </properties>
+      </component>
+      <component id="3ecbf" class="javax.swing.JLabel" binding="errors">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
